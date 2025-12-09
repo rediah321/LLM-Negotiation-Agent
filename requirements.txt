@@ -1,0 +1,10 @@
+sounddevice
+numpy
+torch
+whisper
+transformers
+bitsandbytes
+peft
+piper
+pySimpleGUI
+PySimpleGUI
