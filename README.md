@@ -17,6 +17,15 @@ Key goals of the project:
 
 ---
 
+## Running the Web App
+
+From the root of the repository, run (after setting the finetuned model directory in app_refined.py):
+
+```bash
+python app_refined.py
+```
+---
+
 ## Core Features
 
 * **Fine-Tuned Negotiation LLM**
@@ -185,6 +194,7 @@ Comparative tests showed the fine-tuned model consistently outperformed the raw 
 ## Final Note
 
 This project demonstrates that **small, efficient LLMs combined with symbolic reasoning** can outperform larger models in constrained, real-world tasks like negotiation. By enforcing logic externally and letting the model focus on language and strategy, we achieve both correctness and realism.
+
 
 
 
