@@ -11,6 +11,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from peft import PeftModel
 from piper import PiperVoice, SynthesisConfig
 import google.generativeai as genai
+from dotenv import load_dotenv
+load_dotenv()
 
 GENI_MODEL = "gemini-2.5-flash" 
 genai_api_key = os.getenv("GOOGLE_API_KEY")
@@ -382,4 +384,4 @@ def api_grade():
 
 if __name__ == "__main__":
     initialize_models()
-    app.run(host='0.0.0.0',port=5000,debug=True)
+    app.run(host='0.0.0.0',port=5000,debug=False)
