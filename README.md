@@ -196,10 +196,24 @@ Comparative tests showed the fine-tuned model consistently outperformed the raw 
 
 ---
 
+## Team Contributions
+
+* **Muhammad Haider Asif**
+  Real-time speech pipeline (STT + Piper TTS), documentation, repository management
+
+* **Muhammad Shahzaib Hassan**
+  Dataset conversion, frontend development, logic guardrails
+
+* **Muhammad Talal Naveed**
+  Model training, Qwen migration, experimentation, evaluation
+
+---
+
 
 ## Final Note
 
 This project demonstrates that **small, efficient LLMs combined with symbolic reasoning** can outperform larger models in constrained, real-world tasks like negotiation. By enforcing logic externally and letting the model focus on language and strategy, we achieve both correctness and realism.
+
 
 
 
